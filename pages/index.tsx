@@ -15,7 +15,6 @@ const HomePage: NextPage = () => {
 		title: 'Welcome to our site',
 		subtitle: 'Discover amazing content',
 		buttonText: 'Learn More',
-		unoptimized: false,
 		imgClassName: 'custom-hero-class'
 	}
 
@@ -38,7 +37,6 @@ export const getStaticProps: GetStaticProps = async () => {
 		alt: 'Home page hero image',
 		title: 'КОСМЕЯ',
 		subtitle: 'Фито-дизайн и декор',
-		unoptimized: false,
 		heroContentClassName: 'h-[1100px]',
 		imgClassName: 'h-full',
 		text1: 'Озеленение пространств: <br/>офисов, площадок, мероприятий',

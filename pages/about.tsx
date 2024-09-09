@@ -161,7 +161,6 @@ export const getStaticProps: GetStaticProps = async () => {
 	const heroProps: HeroProps = {
 		src: '/hero.png',
 		alt: 'Home page hero image',
-		unoptimized: false,
 		heroContentClassName: 'h-[250px]',
 		imgClassName: 'h-[250px]'
 	}

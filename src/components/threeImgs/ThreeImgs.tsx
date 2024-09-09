@@ -13,7 +13,6 @@ const ThreeImgs = () => {
 					alt={'Контакты - картинка 1'}
 					width={300}
 					height={600}
-					unoptimized
 					className={'w-full h-[150px] sm:h-[250px] md:h-[458px] object-cover'}
 				/>
 				<Image
@@ -21,7 +20,6 @@ const ThreeImgs = () => {
 					alt={'Контакты - картинка 2'}
 					width={300}
 					height={600}
-					unoptimized
 					className={'w-full h-[150px] sm:h-[250px] md:h-[458px] object-cover'}
 				/>
 				<Image
@@ -29,7 +27,6 @@ const ThreeImgs = () => {
 					alt={'Контакты - картинка 3'}
 					width={300}
 					height={600}
-					unoptimized
 					className={'w-full h-[150px] sm:h-[250px] md:h-[458px] object-cover'}
 				/>
 			</section>

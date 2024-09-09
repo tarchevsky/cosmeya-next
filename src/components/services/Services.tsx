@@ -18,7 +18,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:p-11'}>Фитодизайн в офисных помещениях</p>
@@ -34,7 +33,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:p-11'}>
@@ -52,7 +50,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:p-11'}>Озеленение городских площадей</p>
@@ -68,7 +65,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:p-11'}>Цветочные композиции</p>
@@ -84,7 +80,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:p-11'}>Оформление пространств и территорий</p>
@@ -100,7 +95,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:p-11'}>Интерьерные решение в декоре</p>
@@ -116,7 +110,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:p-11'}>Новогодний декор</p>
@@ -132,7 +125,6 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							unoptimized
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:xl:p-11'}>
