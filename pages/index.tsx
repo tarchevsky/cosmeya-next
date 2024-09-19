@@ -7,22 +7,15 @@ import WhyWe from '@/components/whyWe/WhyWe'
 import Services from '@/components/services/Services'
 import ThreeImgs from '@/components/threeImgs/ThreeImgs'
 import Contacts from '@/components/contacts/Contacts'
+import Timeline from '@/components/timeline/Timeline'
 
 const HomePage: NextPage = () => {
-	const heroProps: HeroProps = {
-		src: '/path/to/image.jpg',
-		alt: 'Hero image',
-		title: 'Welcome to our site',
-		subtitle: 'Discover amazing content',
-		buttonText: 'Learn More',
-		imgClassName: 'custom-hero-class'
-	}
-
 	return (
 		<>
 			<Meta title='Главная' metaDesc='Описание страницы' />
 			<WhyWe />
 			<Services />
+			<Timeline />
 			<ThreeImgs />
 			<Contacts />
 		</>
