@@ -112,7 +112,7 @@ const Services = () => {
 							height={210}
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>Новогодний декор</p>
+						<p className={'p-6 xl:p-11'}>Новогодние украшения</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
@@ -128,7 +128,7 @@ const Services = () => {
 							className={'w-[300px] h-full object-cover rounded-[30px]'}
 						/>
 						<p className={'p-6 xl:xl:p-11'}>
-							Авторская полиграция и фитоэскизы
+							Авторская полиграфия и фитоэскизы
 						</p>
 					</div>
 				</div>
