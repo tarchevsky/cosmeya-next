@@ -6,7 +6,7 @@ import { IoLogoWhatsapp } from 'react-icons/io'
 const Footer = () => {
 	return (
 		<footer
-			className='footer p-10 bg-base-200 text-base-content rounded'
+			className='footer flex justify-between p-10 bg-base-200 text-base-content rounded'
 			style={{ background: 'url(/footer.png) center center/cover no-repeat' }}
 		>
 			<nav className='grid grid-flow-col gap-4 text-base-100'>
