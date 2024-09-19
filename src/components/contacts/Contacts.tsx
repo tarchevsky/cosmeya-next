@@ -6,7 +6,7 @@ const Contacts = () => {
 	return (
 		<FadeIn className={'cont'}>
 			<section className={'flex flex-col gap-4 mb-9 md:mb-28'}>
-				<h3 className={'text-3xl'}>Свяжитесь с нами по любым вопросам</h3>
+				<h3 className={'text-5xl'}>Свяжитесь с нами по любым вопросам</h3>
 				<Button
 					tag='button'
 					text={'Позвонить'}

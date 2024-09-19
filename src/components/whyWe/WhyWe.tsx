@@ -14,7 +14,7 @@ const WhyWe = () => {
 							gridTemplateColumns: '1fr auto'
 						}}
 					>
-						<ul className='flex flex-col gap-4 leading-[40px] pt-[35px] text-xl'>
+						<ul className='flex flex-col gap-4 leading-[40px] pt-[35px]'>
 							<li>внимание к деталям</li>
 							<li>единство стилей</li>
 							<li>обслуживание с гарантией</li>

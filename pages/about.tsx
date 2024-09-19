@@ -12,7 +12,7 @@ const AboutPage: NextPage = () => {
 			<Meta title={title} metaDesc='Страница о нас' />
 			<FadeIn className='cont'>
 				<main className={'prose'}>
-					<h1 className={'font-normal text-[]'}>{title}</h1>
+					<h1 className={'text-5xl'}>{title}</h1>
 					<p>Космея - это дом цветочной моды. Флористический салон. </p>
 					<p>
 						Основан художниками, выпускниками Московского Академического

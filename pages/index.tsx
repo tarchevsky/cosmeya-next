@@ -1,8 +1,6 @@
 import { GetStaticProps, NextPage } from 'next'
-import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
 import { HeroProps } from '@/types'
-import Image from 'next/image'
 import WhyWe from '@/components/whyWe/WhyWe'
 import Services from '@/components/services/Services'
 import ThreeImgs from '@/components/threeImgs/ThreeImgs'
