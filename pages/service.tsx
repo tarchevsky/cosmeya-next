@@ -22,7 +22,7 @@ const ServicePage: NextPage = () => {
 				</main>
 			</FadeIn>
 			<FadeIn className={'cont mb-10'}>
-				<section className={'grid grid-cols-2 gap-10'}>
+				<section className={'grid md:grid-cols-2 gap-10'}>
 					<div className={'prose'}>
 						<p>
 							Мы предлагаем услугу по комплексному уходу за вашими растениями.

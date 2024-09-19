@@ -30,11 +30,15 @@ const Hero = ({
 					unoptimized={unoptimized}
 				/>
 				{title ? (
-					<div className='grid md:relative z-10 min-w-[900px]'>
-						<div className='flex flex-col items-center'>
-							<h1 className='text-9xl text-base-100'>{title}</h1>
+					<div className='grid md:relative z-10 md:min-w-[900px]'>
+						<div className='flex flex-col md:items-center'>
+							<h1 className='text-5xl md:text-9xl text-base-100 px-6 md:px-0'>
+								{title}
+							</h1>
 							{subtitle ? (
-								<p className='text-base-100 text-5xl'>{subtitle}</p>
+								<p className='text-base-100 text-2xl md:text-5xl px-6 md:px-0'>
+									{subtitle}
+								</p>
 							) : null}
 						</div>
 						{text1 ? (

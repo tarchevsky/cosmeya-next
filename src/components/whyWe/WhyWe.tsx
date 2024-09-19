@@ -8,7 +8,7 @@ const WhyWe = () => {
 				<section className='px-[40px] pb-[400px]'>
 					<h2 className='px-10'>Почему выбирают нас?</h2>
 					<div
-						className='grid grid-cols-2 px-10 py-[75px] bg-white'
+						className='flex flex-col-reverse md:grid md:grid-cols-2 px-10 py-[75px] bg-white'
 						style={{
 							boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
 							gridTemplateColumns: '1fr auto'
