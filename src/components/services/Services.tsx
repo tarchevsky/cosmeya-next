@@ -103,9 +103,7 @@ const Services = () => {
 							height={210}
 							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:py-8 xl:pl-0'}>
-							Интерьерные решения в декоре
-						</p>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>Декор в интерьере</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
