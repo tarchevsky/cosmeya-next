@@ -18,9 +18,11 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>Фитодизайн в офисных помещениях</p>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>
+							Фитодизайн в офисных помещениях
+						</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
@@ -33,9 +35,9 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>
 							Флористический дизайн и декор событий
 						</p>
 					</div>
@@ -50,9 +52,11 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>Озеленение городских площадей</p>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>
+							Озеленение городских площадей
+						</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
@@ -65,9 +69,9 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>Цветочные композиции</p>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>Цветочные композиции</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
@@ -80,9 +84,11 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>Оформление пространств и территорий</p>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>
+							Оформление пространств и территорий
+						</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
@@ -95,9 +101,11 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>Интерьерные решение в декоре</p>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>
+							Интерьерные решение в декоре
+						</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
@@ -110,9 +118,9 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:p-11'}>Новогодние украшения</p>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>Новогодние украшения</p>
 					</div>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
@@ -125,9 +133,9 @@ const Services = () => {
 							alt={'Ecckeub'}
 							width={300}
 							height={210}
-							className={'w-[300px] h-full object-cover rounded-[30px]'}
+							className={'w-[250px] h-full object-cover rounded-[30px]'}
 						/>
-						<p className={'p-6 xl:xl:p-11'}>
+						<p className={'p-6 xl:py-8 xl:pl-0'}>
 							Авторская полиграфия и фитоэскизы
 						</p>
 					</div>
