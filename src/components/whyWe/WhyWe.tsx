@@ -5,7 +5,7 @@ const WhyWe = () => {
 	return (
 		<FadeIn className='relative mb-9 md:mb-28'>
 			<div className='cont'>
-				<section className='px-[40px] pb-[400px]'>
+				<section className='px-[40px]'>
 					<h2 className='px-10'>Почему выбирают нас?</h2>
 					<div
 						className='flex flex-col-reverse md:grid md:grid-cols-2 px-10 py-[75px] bg-white'
@@ -57,13 +57,6 @@ const WhyWe = () => {
 					</div>
 				</section>
 			</div>
-			<Image
-				src='/why-we.png'
-				alt='Картинка плитки в Почему мы?'
-				width={1440}
-				height={900}
-				className='absolute -z-10 bottom-0 left-0 w-full object-cover h-[83svh]'
-			/>
 		</FadeIn>
 	)
 }
