@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async () => {
 		alt: 'Home page hero image',
 		title: 'КОСМЕЯ',
 		subtitle: 'Фито-дизайн и декор',
-		heroContentClassName: 'h-[100svh] md:h-[800px]',
+		heroContentClassName: 'h-[100svh] md:h-[700px]',
 		imgClassName: 'h-full',
 		text1: 'Озеленение пространств: <br/>офисов, площадок, мероприятий',
 		text2:
