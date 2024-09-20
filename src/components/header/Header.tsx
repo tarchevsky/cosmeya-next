@@ -49,6 +49,36 @@ const Header = () => {
 							'block text-center opacity-0 md:opacity-100'
 						)}
 					>
+						<Link className='px-[10px] btn btn-ghost font-normal' href='#'>
+							Услуги
+						</Link>
+					</li>
+					<li
+						className={cn(
+							styles.item,
+							'block text-center opacity-0 md:opacity-100'
+						)}
+					>
+						<Link className='px-[10px] btn btn-ghost font-normal' href='#'>
+							Портфолио
+						</Link>
+					</li>
+					<li
+						className={cn(
+							styles.item,
+							'block text-center opacity-0 md:opacity-100'
+						)}
+					>
+						<Link className='px-[10px] btn btn-ghost font-normal' href='#'>
+							Дизайн и декор
+						</Link>
+					</li>
+					<li
+						className={cn(
+							styles.item,
+							'block text-center opacity-0 md:opacity-100'
+						)}
+					>
 						<Link className='px-[10px] btn btn-ghost font-normal' href='/about'>
 							О нас
 						</Link>
@@ -63,7 +93,7 @@ const Header = () => {
 							className='px-[10px] btn btn-ghost font-normal'
 							href='/service'
 						>
-							Услуга
+							Услуга (служебная ссылка)
 						</Link>
 					</li>
 					<li
