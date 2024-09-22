@@ -8,7 +8,7 @@ const WhyWe = () => {
 				<section className='px-[40px]'>
 					<h2 className='px-10'>Почему выбирают нас?</h2>
 					<div
-						className='flex flex-col-reverse md:grid md:grid-cols-2 px-10 py-[75px] bg-white'
+						className='flex flex-col-reverse lg:grid lg:grid-cols-2 px-10 py-[75px] bg-white'
 						style={{
 							boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
 							gridTemplateColumns: '1fr auto'
@@ -23,12 +23,7 @@ const WhyWe = () => {
 							<li>высокое качество материалов и исполнения</li>
 							<li>персонализированный подход к каждому клиенту</li>
 						</ul>
-						<div
-							className='grid grid-cols-2 gap-2'
-							style={{
-								gridTemplateRows: '200px 200px'
-							}}
-						>
+						<div className='grid grid-cols-2 gap-2'>
 							<Image
 								src='/why-grid-1.png'
 								alt='Картинка плитки в Почему мы?'
