@@ -13,15 +13,9 @@ const Contacts = () => {
 					ariaLabel={'Кнопка обратной связи'}
 					className={'btn-wide'}
 				/>
-				<Link href={'tel:+7 (495) 792-87-81'} className={'text-3xl'}>
-					+7 (495) 792-87-81
-				</Link>
-				<Link href={'tel:+7 (903) 518-45-71'} className={'text-3xl'}>
-					+7 (903) 518-45-71
-				</Link>
-				<Link href={'mailto:info@cosmeya.ru'} className={'text-3xl'}>
-					info@cosmeya.ru
-				</Link>
+				<Link href={'tel:+7 (495) 792-87-81'}>+7 (495) 792-87-81</Link>
+				<Link href={'tel:+7 (903) 518-45-71'}>+7 (903) 518-45-71</Link>
+				<Link href={'mailto:info@cosmeya.ru'}>info@cosmeya.ru</Link>
 			</section>
 		</FadeIn>
 	)
