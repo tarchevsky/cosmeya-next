@@ -88,6 +88,7 @@ const AboutPage: NextPage = () => {
 						src={'/avatar.jpg'}
 						caption='Антонина Игоревна Козловская - генеральный <br />директор и идейный руководитель ООО Космея'
 						imageClass='w-full'
+						figcaptionClass='mt-6'
 					/>
 
 					<div>

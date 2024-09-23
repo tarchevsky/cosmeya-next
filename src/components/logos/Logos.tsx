@@ -6,69 +6,73 @@ const Logos = () => {
 		<FadeIn className='cont mb-9 md:mb-28'>
 			<section>
 				<h3 className={'pb-[75px]'}>Среди наших клиентов</h3>
-				<div className={'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8'}>
+				<div
+					className={
+						'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center'
+					}
+				>
 					<Image
 						src={'/clients/client-1.png'}
-						alt={'О нас - клиент 1'}
+						alt={'Логотип правительства Москвы'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[60px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-2.png'}
-						alt={'О нас - клиент 2'}
+						alt={'Логотип ТВЦ'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[60px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-3.png'}
-						alt={'О нас - клиент 3'}
+						alt={'Логотип Мосводканалстрой'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[90px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-4.png'}
-						alt={'О нас - клиент 4'}
+						alt={'Логотип Вимм Билль Данн'}
 						width={200}
 						height={100}
 						className={'m-0 w-full h-[100px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-5.png'}
-						alt={'О нас - клиент 5'}
+						alt={'Логотип Фасады Москвы'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[80px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-6.png'}
-						alt={'О нас - клиент 6'}
+						alt={'Логотип Московский Театр Современник'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[60px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-7.png'}
-						alt={'О нас - клиент 7'}
+						alt={'Логотип Театр Кукол С.В.Образцова'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[70px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-8.png'}
-						alt={'О нас - клиент 8'}
+						alt={'Логотип Первый Канал'}
 						width={200}
 						height={100}
 						className={'m-0 w-full h-[100px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-9.png'}
-						alt={'О нас - клиент 9'}
+						alt={'Логотип Спецдорпроект'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[60px] object-contain'}
 					/>
 				</div>
 			</section>
