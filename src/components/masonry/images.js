@@ -1,27 +1,32 @@
 export const images = [
 	{
 		id: '1',
-		src: 'https://images.unsplash.com/photo-1619417606952-552a15237367?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		alt: 'Алтай'
+		src: '/inspiration/inspiration-1.png',
+		alt: 'inspiration'
 	},
 	{
 		id: '2',
-		src: 'https://images.unsplash.com/photo-1630535879508-9a3a8967d9be?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		alt: 'Санкт-Петербург'
+		src: '/inspiration/inspiration-2.png',
+		alt: 'inspiration'
 	},
 	{
 		id: '3',
-		src: 'https://images.unsplash.com/photo-1623335177873-2caed992d1c7?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		alt: 'Переславль-Залесский'
+		src: '/inspiration/inspiration-3.png',
+		alt: 'inspiration'
 	},
 	{
 		id: '4',
-		src: 'https://images.unsplash.com/photo-1606841002936-38996d5eea7f?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		alt: 'Териберка'
+		src: '/inspiration/inspiration-4.png',
+		alt: 'inspiration'
 	},
 	{
 		id: '5',
-		src: 'https://images.unsplash.com/photo-1665073140507-0bad3d962476?q=80&w=3303&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		alt: 'Камчатка'
+		src: '/inspiration/inspiration-5.png',
+		alt: 'inspiration'
+	},
+	{
+		id: '6',
+		src: '/inspiration/inspiration-6.png',
+		alt: 'inspiration'
 	}
 ]
