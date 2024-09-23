@@ -46,7 +46,7 @@ module.exports = {
 					'.glass': {
 						'background-image':
 							'linear-gradient(\n' +
-							'        rgb(255 255 255 / var(--glass-opacity, 20%)) 40%,\n' +
+							'        rgb(255 255 255 / var(--glass-opacity, 20%)) 50%,\n' +
 							'        rgb(0 0 0 / 0%) 100%\n' +
 							'      )'
 					}
