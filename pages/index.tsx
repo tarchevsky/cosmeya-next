@@ -7,12 +7,13 @@ import ThreeImgs from '@/components/threeImgs/ThreeImgs'
 import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
 import Logos from '@/components/logos/Logos'
+import { serviceData } from '@/components/services/serviceData'
 
 const HomePage: NextPage = () => {
 	return (
 		<>
 			<Meta title='Главная' metaDesc='Описание страницы' />
-			<Services />
+			<Services serviceData={serviceData} />
 			<WhyWe />
 			<Timeline />
 			<ThreeImgs />
