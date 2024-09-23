@@ -70,7 +70,7 @@ const Hero = ({
 								</div>
 								<div className='rounded-3xl p-6 glass'>
 									<Link
-										href='#'
+										href='/life-area'
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text4 ?? '' }}
 										aria-label='Кнопка на раздел'
