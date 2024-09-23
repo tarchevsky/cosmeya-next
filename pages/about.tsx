@@ -3,6 +3,7 @@ import FadeIn from '@/components/fadeIn/FadeIn'
 import Meta from '@/components/meta/Meta'
 import { HeroProps } from '@/types'
 import Image from 'next/image'
+import Logos from '@/components/logos/Logos'
 
 const title = 'О нас'
 
@@ -151,6 +152,7 @@ const AboutPage: NextPage = () => {
 					</div>
 				</section>
 			</FadeIn>
+			<Logos />
 		</>
 	)
 }
