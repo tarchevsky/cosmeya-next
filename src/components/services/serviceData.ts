@@ -21,7 +21,7 @@ export const serviceData: ServiceData[] = [
 		height: 210,
 		text: 'Флористический дизайн и декор событий',
 		btnText: 'Подробнее',
-		btnHref: '#'
+		btnHref: '/event'
 	},
 	{
 		id: 3,
