@@ -65,7 +65,7 @@ export const serviceData: ServiceData[] = [
 		height: 210,
 		text: 'Декор в интерьере',
 		btnText: 'Подробнее',
-		btnHref: '#'
+		btnHref: '/decor'
 	},
 	{
 		id: 7,
