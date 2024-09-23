@@ -54,7 +54,7 @@ export const serviceData: ServiceData[] = [
 		height: 210,
 		text: 'Оформление пространств и территорий',
 		btnText: 'Подробнее',
-		btnHref: '#'
+		btnHref: '/area'
 	},
 	{
 		id: 6,
