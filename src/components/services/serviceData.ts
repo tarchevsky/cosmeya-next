@@ -32,7 +32,7 @@ export const serviceData: ServiceData[] = [
 		height: 210,
 		text: 'Озеленение городских площадей',
 		btnText: 'Подробнее',
-		btnHref: '#'
+		btnHref: '/city'
 	},
 	{
 		id: 4,
