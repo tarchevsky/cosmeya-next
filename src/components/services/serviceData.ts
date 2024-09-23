@@ -87,6 +87,6 @@ export const serviceData: ServiceData[] = [
 		height: 210,
 		text: 'Авторская полиграфия и фитоэскизы',
 		btnText: 'Подробнее',
-		btnHref: '#'
+		btnHref: '/sketchs'
 	}
 ]
