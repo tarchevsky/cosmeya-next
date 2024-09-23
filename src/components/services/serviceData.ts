@@ -43,7 +43,7 @@ export const serviceData: ServiceData[] = [
 		height: 210,
 		text: 'Цветочные композиции',
 		btnText: 'Подробнее',
-		btnHref: '#'
+		btnHref: '/flowers'
 	},
 	{
 		id: 5,
