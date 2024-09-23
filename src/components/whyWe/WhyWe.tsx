@@ -5,12 +5,12 @@ const WhyWe = () => {
 	return (
 		<FadeIn className='relative mb-9 md:mb-28'>
 			<div className='cont'>
+				<h2 className={'pb-[75px]'}>Почему выбирают нас?</h2>
 				<section className='px-[40px]'>
-					<h2 className='px-10'>Почему выбирают нас?</h2>
 					<div
 						className='flex flex-col-reverse lg:grid lg:grid-cols-2 px-10 py-[75px] bg-white'
 						style={{
-							boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+							boxShadow: '0px 2px 6px 2px rgba(0, 0, 0, 0.25)',
 							gridTemplateColumns: '1fr auto'
 						}}
 					>
