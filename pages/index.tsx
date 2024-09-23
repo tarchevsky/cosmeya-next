@@ -6,6 +6,7 @@ import Services from '@/components/services/Services'
 import ThreeImgs from '@/components/threeImgs/ThreeImgs'
 import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
+import Logos from '@/components/logos/Logos'
 
 const HomePage: NextPage = () => {
 	return (
@@ -15,6 +16,7 @@ const HomePage: NextPage = () => {
 			<WhyWe />
 			<Timeline />
 			<ThreeImgs />
+			<Logos />
 			<Contacts />
 		</>
 	)
