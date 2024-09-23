@@ -12,7 +12,7 @@ const Services = ({ serviceData }: data) => {
 					{serviceData.map((data, index) => (
 						<div
 							key={data.id}
-							className='grid grid-cols-2 gap-2 rounded-[30px]'
+							className='grid grid-cols-2 gap-6 rounded-[30px]'
 							style={{
 								background: '#939393'
 							}}
@@ -29,7 +29,7 @@ const Services = ({ serviceData }: data) => {
 								<br />
 								<Button
 									tag='link'
-									className='btn btn-outline border-base-100 text-base-100'
+									className='btn btn-outline border-base-100 text-base-100 rounded-[30px] btn-lg ml-[1vw] xl:ml-[2vw] h-[3rem] min-h-[3rem] font-normal text-sm'
 									text={data.btnText}
 									ariaLabel={'Кнопка на раздел'}
 									href={data.btnHref}
