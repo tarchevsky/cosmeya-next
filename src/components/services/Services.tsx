@@ -6,7 +6,7 @@ const Services = () => {
 		<FadeIn className='cont mb-9 md:mb-28'>
 			<section>
 				<h2 className='px-[50px] pb-[75px]'>Услуги</h2>
-				<div className='grid lg:grid-cols-2 gap-8 md:px-[100px]'>
+				<div className='grid lg:grid-cols-2 gap-8'>
 					<div
 						className='grid grid-cols-2 gap-2 rounded-[30px]'
 						style={{

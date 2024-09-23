@@ -25,12 +25,12 @@ module.exports = {
 						'padding-right': '40px'
 					},
 					'@screen md': {
-						'padding-left': '140px',
-						'padding-right': '140px'
+						'padding-left': '250px',
+						'padding-right': '250px'
 					},
 					'@screen 2xl': {
-						'padding-left': '180px',
-						'padding-right': '180px'
+						'padding-left': '300px',
+						'padding-right': '300px'
 					}
 				}
 			}
