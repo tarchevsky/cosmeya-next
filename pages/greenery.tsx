@@ -21,13 +21,6 @@ const GreeneryPage: NextPage = () => {
 			</FadeIn>
 			<FadeIn className={'cont mb-9 md:mb-28'}>
 				<div className={'grid grid-cols-1 xl:grid-cols-2 items-center gap-10'}>
-					<Figure
-						src={'/greenery.jpg'}
-						caption='Подпись к картинке'
-						imageClass='w-full'
-						figcaptionClass='mt-6'
-					/>
-
 					<div>
 						<p>
 							Жизнь в современном мегаполисе оставляет нам мало времени на
@@ -66,6 +59,12 @@ const GreeneryPage: NextPage = () => {
 							посетителям, вызывая у них желание снова возвращаться сюда.
 						</p>
 					</div>
+					<Figure
+						src={'/greenery.jpg'}
+						caption='Подпись к картинке'
+						imageClass='w-full'
+						figcaptionClass='mt-6'
+					/>
 				</div>
 			</FadeIn>
 			<FadeIn className={'cont mb-9 md:mb-28'}>
