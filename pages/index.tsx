@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps = async () => {
 		src: '/hero.png',
 		alt: 'Home page hero image',
 		title: 'КОСМЕЯ',
-		subtitle: 'Фито-дизайн и декор',
+		subtitle: 'Фитодизайн и декор',
 		heroContentClassName: 'h-[100svh] md:h-[700px]',
 		imgClassName: 'h-full',
 		text1: 'Озеленение пространств: <br/>офисов, площадок, мероприятий',
