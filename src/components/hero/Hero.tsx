@@ -1,5 +1,6 @@
 import { HeroProps } from '@/types'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = ({
 	title,
@@ -44,27 +45,35 @@ const Hero = ({
 						{text1 ? (
 							<div className='grid lg:grid-cols-2 gap-4 mt-[33px]'>
 								<div className='rounded-3xl p-6 glass'>
-									<p
+									<Link
+										href='/greenery'
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text1 ?? '' }}
+										aria-label='Кнопка на раздел'
 									/>
 								</div>
 								<div className='rounded-3xl p-6 glass'>
-									<p
+									<Link
+										href='#'
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text2 ?? '' }}
+										aria-label='Кнопка на раздел'
 									/>
 								</div>
 								<div className='rounded-3xl p-6 glass'>
-									<p
+									<Link
+										href='#'
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text3 ?? '' }}
+										aria-label='Кнопка на раздел'
 									/>
 								</div>
 								<div className='rounded-3xl p-6 glass'>
-									<p
+									<Link
+										href='#'
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text4 ?? '' }}
+										aria-label='Кнопка на раздел'
 									/>
 								</div>
 							</div>
