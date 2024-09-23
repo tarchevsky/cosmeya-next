@@ -16,7 +16,7 @@ const NewYearPage: NextPage = () => {
 				</main>
 			</FadeIn>
 			<FadeIn className={'cont mb-9 md:mb-28'}>
-				<div className={'grid grid-cols-1 xl:grid-cols-2 items-center gap-10'}>
+				<div className={'grid grid-cols-1 xl:grid-cols-2 gap-10'}>
 					<div>
 						<p>
 							Если вы хотите в полной мере насладиться своим праздником, и не
