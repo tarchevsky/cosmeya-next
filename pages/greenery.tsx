@@ -8,7 +8,7 @@ import Figure from '@/components/figure/Figure'
 
 const title = 'Озеленение пространств'
 
-const AboutPage: NextPage = () => {
+const GreeneryPage: NextPage = () => {
 	return (
 		<>
 			<Meta title={title} metaDesc='Страница про озеленение пространств' />
@@ -66,7 +66,7 @@ const AboutPage: NextPage = () => {
 	)
 }
 
-export default AboutPage
+export default GreeneryPage
 
 export const getStaticProps: GetStaticProps = async () => {
 	const heroProps: HeroProps = {
