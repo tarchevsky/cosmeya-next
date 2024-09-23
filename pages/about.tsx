@@ -83,7 +83,7 @@ const AboutPage: NextPage = () => {
 			</FadeIn>
 			<FadeIn className={'cont mb-9 md:mb-28'}>
 				<h2 className={'pb-[75px]'}>Обращение руководителя</h2>
-				<div className={'grid grid-cols-2 items-center gap-10'}>
+				<div className={'grid grid-cols-1 xl:grid-cols-2 items-center gap-10'}>
 					<Figure
 						src={'/avatar.jpg'}
 						caption='Антонина Игоревна Козловская - генеральный <br />директор и идейный руководитель ООО Космея'
