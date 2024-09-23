@@ -60,7 +60,7 @@ const GreeneryPage: NextPage = () => {
 						</p>
 					</div>
 					<Figure
-						src={'/greenery.jpg'}
+						src={'/greenery.JPG'}
 						caption='Подпись к картинке'
 						imageClass='w-full'
 						figcaptionClass='mt-6'
