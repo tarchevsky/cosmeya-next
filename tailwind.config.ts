@@ -38,7 +38,21 @@ module.exports = {
 		}
 	],
 	daisyui: {
-		themes: ['light'], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
+		themes: [
+			{
+				light: {
+					...require('daisyui/src/theming/themes')['light'],
+					'--glass-blur': '3px',
+					'.glass': {
+						'background-image':
+							'linear-gradient(\n' +
+							'        rgb(255 255 255 / var(--glass-opacity, 20%)) 40%,\n' +
+							'        rgb(0 0 0 / 0%) 100%\n' +
+							'      )'
+					}
+				}
+			}
+		], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
 		base: true, // applies background color and foreground color for root element by default
 		styled: true, // include daisyUI colors and design decisions for all components
 		utils: true, // adds responsive and modifier utility classes

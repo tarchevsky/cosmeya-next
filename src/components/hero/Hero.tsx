@@ -43,45 +43,25 @@ const Hero = ({
 						</div>
 						{text1 ? (
 							<div className='grid lg:grid-cols-2 gap-4 mt-[33px]'>
-								<div
-									className='rounded-3xl p-6'
-									style={{
-										background: 'rgba(19, 19, 19, 0.30)'
-									}}
-								>
+								<div className='rounded-3xl p-6 glass'>
 									<p
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text1 ?? '' }}
 									/>
 								</div>
-								<div
-									className='rounded-3xl p-6'
-									style={{
-										background: 'rgba(19, 19, 19, 0.30)'
-									}}
-								>
+								<div className='rounded-3xl p-6 glass'>
 									<p
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text2 ?? '' }}
 									/>
 								</div>
-								<div
-									className='rounded-3xl p-6'
-									style={{
-										background: 'rgba(19, 19, 19, 0.30)'
-									}}
-								>
+								<div className='rounded-3xl p-6 glass'>
 									<p
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text3 ?? '' }}
 									/>
 								</div>
-								<div
-									className='rounded-3xl p-6'
-									style={{
-										background: 'rgba(19, 19, 19, 0.30)'
-									}}
-								>
+								<div className='rounded-3xl p-6 glass'>
 									<p
 										className='text-base-100'
 										dangerouslySetInnerHTML={{ __html: text4 ?? '' }}
