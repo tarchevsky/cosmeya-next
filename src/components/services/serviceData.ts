@@ -10,7 +10,7 @@ export const serviceData: ServiceData[] = [
 		height: 210,
 		text: 'Фитодизайн в офисных помещениях',
 		btnText: 'Подробнее',
-		btnHref: '#'
+		btnHref: '/fito'
 	},
 	{
 		id: 2,
