@@ -29,7 +29,7 @@ const Figure = ({
 							alt={caption}
 							width={width}
 							height={height}
-							className={`object-contain hover:brightness-90 transition-all ease-in-out ${imageClass}`}
+							className={`hover:brightness-90 transition-all ease-in-out ${imageClass}`}
 							unoptimized={unoptimized}
 						/>
 						<figcaption className={`text-center ${figcaptionClass}`}>
@@ -44,12 +44,13 @@ const Figure = ({
 						alt={caption}
 						width={width}
 						height={height}
-						className={`object-contain ${imageClass}`}
+						className={`${imageClass}`}
 						unoptimized={unoptimized}
 					/>
-					<figcaption className={`text-center ${figcaptionClass}`}>
-						{caption}
-					</figcaption>
+					<figcaption
+						className={`text-center ${figcaptionClass}`}
+						dangerouslySetInnerHTML={{ __html: caption }}
+					/>
 				</figure>
 			)}
 		</>
