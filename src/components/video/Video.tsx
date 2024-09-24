@@ -1,4 +1,5 @@
 import { VideoProps } from '@/types'
+import { useEffect, useRef } from 'react'
 
 const Video = ({
 	width,
@@ -14,14 +15,23 @@ const Video = ({
 	poster,
 	...rest
 }: VideoProps) => {
+	const videoRef = useRef<HTMLVideoElement>(null)
+
+	useEffect(() => {
+		if (videoRef.current) {
+			videoRef.current.muted = muted
+		}
+	}, [muted])
+
 	return (
 		<video
+			ref={videoRef}
 			width={width}
 			height={height}
 			controls={controls}
 			loop={loop}
 			autoPlay={autoPlay}
-			muted={muted}
+			{...(muted ? { muted: true } : {})}
 			preload={preload}
 			playsInline={playsInline}
 			{...rest}
