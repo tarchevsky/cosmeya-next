@@ -8,7 +8,8 @@ const Video = ({
 	controls,
 	loop,
 	autoPlay,
-	muted
+	muted,
+	...rest
 }: VideoProps) => {
 	return (
 		<video
@@ -19,6 +20,7 @@ const Video = ({
 			autoPlay={autoPlay}
 			muted={muted}
 			preload='none'
+			{...rest}
 		>
 			<source src={src} type={type} />
 			Your browser does not support the video tag.

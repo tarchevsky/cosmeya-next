@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { HTMLAttributes, ReactNode } from 'react'
 import { Url } from 'next/dist/shared/lib/router/router'
 
 // Metrika.tsx
@@ -52,7 +52,7 @@ export interface FigureProps {
 
 // Video.tsx
 
-export interface VideoProps {
+export interface VideoProps extends HTMLAttributes<HTMLVideoElement> {
 	width: number
 	height: number
 	src: string
@@ -74,6 +74,7 @@ export interface HeroProps {
 	unoptimized?: boolean
 	heroContentClassName?: string
 	imgClassName?: string
+	slider?: boolean
 	text1?: string
 	text2?: string
 	text3?: string
