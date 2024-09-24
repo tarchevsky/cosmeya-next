@@ -20,6 +20,11 @@ const Video = ({
 	useEffect(() => {
 		if (videoRef.current) {
 			videoRef.current.muted = muted
+			if (muted) {
+				videoRef.current.setAttribute('muted', '')
+			} else {
+				videoRef.current.removeAttribute('muted')
+			}
 		}
 	}, [muted])
 
