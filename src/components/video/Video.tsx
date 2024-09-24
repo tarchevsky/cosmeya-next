@@ -20,6 +20,7 @@ const Video = ({
 			autoPlay={autoPlay}
 			muted={muted}
 			preload='none'
+			playsInline
 			{...rest}
 		>
 			<source src={src} type={type} />
