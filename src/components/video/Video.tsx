@@ -36,7 +36,6 @@ const Video = ({
 			controls={controls}
 			loop={loop}
 			autoPlay={autoPlay}
-			{...(muted ? { muted: true } : {})}
 			preload={preload}
 			playsInline={playsInline}
 			{...rest}
