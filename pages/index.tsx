@@ -8,7 +8,6 @@ import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
 import Logos from '@/components/logos/Logos'
 import { serviceData } from '@/components/services/serviceData'
-import FullSlider from '@/components/fullSlider/FullSlider'
 
 const HomePage: NextPage = () => {
 	return (
