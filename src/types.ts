@@ -50,6 +50,19 @@ export interface FigureProps {
 	unoptimized?: boolean
 }
 
+// Video.tsx
+
+export interface VideoProps {
+	width: number
+	height: number
+	src: string
+	type: string
+	controls: boolean
+	loop: boolean
+	autoPlay: boolean
+	muted: boolean
+}
+
 // Hero.tsx
 
 export interface HeroProps {
