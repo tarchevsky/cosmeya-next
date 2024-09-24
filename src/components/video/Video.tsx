@@ -19,28 +19,6 @@ const Video = ({
 
 	useEffect(() => {
 		if (videoRef.current) {
-			videoRef.current.muted = true // Всегда начинайте без звука
-			videoRef.current.setAttribute('muted', '')
-			videoRef.current.setAttribute('playsinline', '')
-
-			// Попытка воспроизведения
-			const playPromise = videoRef.current.play()
-
-			if (playPromise !== undefined) {
-				playPromise
-					.then(_ => {
-						// Автовоспроизведение началось
-					})
-					.catch(error => {
-						// Автовоспроизведение не удалось
-						console.log('Autoplay was prevented')
-					})
-			}
-		}
-	}, [])
-
-	useEffect(() => {
-		if (videoRef.current) {
 			videoRef.current.muted = muted
 			if (muted) {
 				videoRef.current.setAttribute('muted', '')
