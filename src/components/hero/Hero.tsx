@@ -1,6 +1,7 @@
 import { HeroProps } from '@/types'
 import Image from 'next/image'
 import Link from 'next/link'
+import FullSlider from '@/components/fullSlider/FullSlider'
 
 const Hero = ({
 	title,
@@ -11,6 +12,7 @@ const Hero = ({
 	unoptimized,
 	heroContentClassName,
 	imgClassName,
+	slider = false,
 	text1,
 	text2,
 	text3,
@@ -30,6 +32,7 @@ const Hero = ({
 					priority
 					unoptimized={unoptimized}
 				/>
+				{slider ? <FullSlider /> : null}
 				{title ? (
 					<div className='grid md:relative z-10 md:min-w-[900px]'>
 						<div className='flex flex-col md:items-center'>

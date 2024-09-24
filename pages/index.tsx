@@ -8,6 +8,7 @@ import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
 import Logos from '@/components/logos/Logos'
 import { serviceData } from '@/components/services/serviceData'
+import FullSlider from '@/components/fullSlider/FullSlider'
 
 const HomePage: NextPage = () => {
 	return (
@@ -32,7 +33,8 @@ export const getStaticProps: GetStaticProps = async () => {
 		title: 'КОСМЕЯ',
 		subtitle: 'Фитодизайн и декор',
 		heroContentClassName: 'h-[100svh] md:h-[700px]',
-		imgClassName: 'h-full',
+		imgClassName: 'hidden h-full',
+		slider: true,
 		text1: 'Озеленение пространств: <br/>офисов, площадок, мероприятий',
 		text2:
 			'Эксклюзивные цветочные <br />композиции и уникальные <br />флористические решения',
