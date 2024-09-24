@@ -39,12 +39,8 @@ const FullSlider = () => {
 					<Video
 						src='/videos/video.m4v'
 						type='video/mp4'
-						controls={false}
-						loop
 						height={1920}
 						width={900}
-						autoPlay
-						muted
 						className='w-full h-full object-cover brightness-75'
 					/>
 				</SwiperSlide>

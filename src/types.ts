@@ -57,10 +57,13 @@ export interface VideoProps extends HTMLAttributes<HTMLVideoElement> {
 	height: number
 	src: string
 	type: string
-	controls: boolean
-	loop: boolean
-	autoPlay: boolean
-	muted: boolean
+	controls?: boolean
+	loop?: boolean
+	preload?: string
+	autoPlay?: boolean
+	muted?: boolean
+	playsInline?: boolean
+	poster?: string
 }
 
 // Hero.tsx

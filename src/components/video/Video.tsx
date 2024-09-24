@@ -5,10 +5,13 @@ const Video = ({
 	height,
 	src,
 	type,
-	controls,
-	loop,
-	autoPlay,
-	muted,
+	controls = false,
+	loop = true,
+	preload = 'none',
+	muted = true,
+	autoPlay = true,
+	playsInline = true,
+	poster,
 	...rest
 }: VideoProps) => {
 	return (
@@ -19,8 +22,8 @@ const Video = ({
 			loop={loop}
 			autoPlay={autoPlay}
 			muted={muted}
-			preload='none'
-			playsInline
+			preload={preload}
+			playsInline={playsInline}
 			{...rest}
 		>
 			<source src={src} type={type} />
