@@ -40,7 +40,6 @@ const FullSlider = () => {
 						src='/videos/video.m4v'
 						type='video/mp4'
 						height={1920}
-						controls={false}
 						preload='metadata'
 						width={900}
 						className='w-full h-full object-cover brightness-75'
