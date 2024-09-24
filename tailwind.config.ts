@@ -24,7 +24,7 @@ module.exports = {
 						'padding-left': '40px',
 						'padding-right': '40px'
 					},
-					'@screen md': {
+					'@screen xl': {
 						'padding-left': '250px',
 						'padding-right': '250px'
 					},
