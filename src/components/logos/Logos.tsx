@@ -47,7 +47,7 @@ const Logos = () => {
 						className={'m-0 w-full h-[80px] object-contain'}
 					/>
 					<Image
-						src={'/clients/client-6.png'}
+						src={'/clients/client-6.svg'}
 						alt={'Логотип Московский Театр Современник'}
 						width={200}
 						height={100}
@@ -70,6 +70,48 @@ const Logos = () => {
 					<Image
 						src={'/clients/client-9.png'}
 						alt={'Логотип Спецдорпроект'}
+						width={200}
+						height={100}
+						className={'m-0 w-full h-[60px] object-contain'}
+					/>
+					<Image
+						src={'/clients/client-10.png'}
+						alt={'Логотип Центральный Банк России'}
+						width={200}
+						height={100}
+						className={'m-0 w-full h-[60px] object-contain'}
+					/>
+					<Image
+						src={'/clients/client-11.png'}
+						alt={'Логотип МИД России'}
+						width={200}
+						height={100}
+						className={'m-0 w-full h-[60px] object-contain'}
+					/>
+					<Image
+						src={'/clients/client-12.png'}
+						alt={'Логотип Moscow Country Club'}
+						width={200}
+						height={100}
+						className={'m-0 w-full h-[60px] object-contain'}
+					/>
+					<Image
+						src={'/clients/client-13.png'}
+						alt={'Логотип Мегаполис IT'}
+						width={200}
+						height={100}
+						className={'m-0 w-full h-[60px] object-contain'}
+					/>
+					<Image
+						src={'/clients/client-14.png'}
+						alt={'Логотип Департамент Культыру города Москвы'}
+						width={200}
+						height={100}
+						className={'m-0 w-full h-[60px] object-contain'}
+					/>
+					<Image
+						src={'/clients/client-15.png'}
+						alt={'Логотип Дворец на Яузе'}
 						width={200}
 						height={100}
 						className={'m-0 w-full h-[60px] object-contain'}
