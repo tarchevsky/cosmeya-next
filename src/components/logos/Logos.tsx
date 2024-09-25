@@ -16,63 +16,63 @@ const Logos = () => {
 						alt={'Логотип правительства Москвы'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[60px] object-contain'}
+						className={'m-0 w-full h-[40px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-2.png'}
 						alt={'Логотип ТВЦ'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[60px] object-contain'}
+						className={'m-0 w-full h-[40px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-3.png'}
 						alt={'Логотип Мосводканалстрой'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[90px] object-contain'}
+						className={'m-0 w-full h-[60px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-4.png'}
 						alt={'Логотип Вимм Билль Данн'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[80px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-5.png'}
 						alt={'Логотип Фасады Москвы'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[80px] object-contain'}
+						className={'m-0 w-full h-[40px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-6.svg'}
 						alt={'Логотип Московский Театр Современник'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[60px] object-contain'}
+						className={'m-0 w-full h-[20px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-7.png'}
 						alt={'Логотип Театр Кукол С.В.Образцова'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[70px] object-contain'}
+						className={'m-0 w-full h-[50px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-8.png'}
 						alt={'Логотип Первый Канал'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[100px] object-contain'}
+						className={'m-0 w-full h-[80px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-9.png'}
 						alt={'Логотип Спецдорпроект'}
 						width={200}
 						height={100}
-						className={'m-0 w-full h-[60px] object-contain'}
+						className={'m-0 w-full h-[40px] object-contain'}
 					/>
 					<Image
 						src={'/clients/client-10.png'}
@@ -115,6 +115,13 @@ const Logos = () => {
 						width={200}
 						height={100}
 						className={'m-0 w-full h-[60px] object-contain'}
+					/>
+					<Image
+						src={'/clients/client-16.png'}
+						alt={'Логотип Большой Театр'}
+						width={200}
+						height={100}
+						className={'m-0 w-full h-[80px] object-contain'}
 					/>
 				</div>
 			</section>
