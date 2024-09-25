@@ -14,7 +14,7 @@ const Contacts = () => {
 					className={'btn-wide'}
 				/>
 				<Link href={'tel:+7 (495) 792-87-81'}>+7 (495) 792-87-81</Link>
-				<Link href={'tel:+7 (903) 518-45-71'}>+7 (903) 518-45-71</Link>
+				<Link href={'tel:+7 (903) 518-13-33'}>+7 (903) 518-13-33</Link>
 				<Link href={'mailto:info@cosmeya.ru'}>info@cosmeya.ru</Link>
 			</section>
 		</FadeIn>
