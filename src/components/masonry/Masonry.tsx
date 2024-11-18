@@ -27,15 +27,6 @@ const Masonry: FC<MasonryProps> = ({ images }) => {
 								style={{ width: '100%', height: '100%' }}
 								quality={10}
 							/>
-
-							<div
-								className={cn(
-									styles.imgTitle,
-									'absolute bottom-4 right-4 text-white'
-								)}
-							>
-								{image.alt}
-							</div>
 						</div>
 					))}
 				</div>
