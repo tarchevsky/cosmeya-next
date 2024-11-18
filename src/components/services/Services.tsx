@@ -12,7 +12,7 @@ const Services = ({ serviceData }: data) => {
 					{serviceData.map((data, index) => (
 						<div
 							key={data.id}
-							className='grid grid-cols-2 gap-6 rounded-[30px]'
+							className='grid grid-cols-2 rounded-[30px]'
 							style={{
 								background: '#939393'
 							}}
@@ -24,16 +24,21 @@ const Services = ({ serviceData }: data) => {
 								height={data.height}
 								className={'w-[250px] h-full object-cover rounded-[30px]'}
 							/>
-							<div className={'p-6 xl:py-8 xl:pl-0'}>
+							<div
+								className={
+									'flex flex-col items-center justify-center gap-6 p-6 xl:py-8'
+								}
+							>
 								<p>{data.text}</p>
-								<br />
-								<Button
-									tag='link'
-									className='btn btn-outline border-base-100 text-base-100 rounded-[30px] btn-lg ml-[1vw] xl:ml-[2vw] h-[3rem] min-h-[3rem] font-normal text-sm'
-									text={data.btnText}
-									ariaLabel={'Кнопка на раздел'}
-									href={data.btnHref}
-								/>
+								{data.btnHref || data.btnText ? (
+									<Button
+										tag='link'
+										className='btn btn-outline border-base-100 text-base-100 rounded-[30px] btn-lg h-[3rem] min-h-[3rem] font-normal text-sm'
+										text={data.btnText || ''}
+										ariaLabel={'Кнопка на раздел'}
+										href={data.btnHref}
+									/>
+								) : null}
 							</div>
 						</div>
 					))}

@@ -6,8 +6,8 @@ export interface ServiceData {
 	width: number
 	height: number
 	text: string
-	btnText: string
-	btnHref: string
+	btnText?: string
+	btnHref?: string
 }
 
 export interface data {
