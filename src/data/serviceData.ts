@@ -8,9 +8,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Фитодизайн в офисных помещениях',
-		btnText: 'Подробнее',
-		btnHref: '/fito'
+		text: 'Фитодизайн в офисных помещениях'
 	},
 	{
 		id: 2,
@@ -19,9 +17,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Флористический дизайн и декор событий',
-		btnText: 'Подробнее',
-		btnHref: '/event'
+		text: 'Флористический дизайн и декор событий'
 	},
 	{
 		id: 3,
@@ -30,9 +26,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Озеленение городских площадей',
-		btnText: 'Подробнее',
-		btnHref: '/city'
+		text: 'Озеленение городских площадей'
 	},
 	{
 		id: 4,
@@ -41,9 +35,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Цветочные композиции',
-		btnText: 'Подробнее',
-		btnHref: '/flowers'
+		text: 'Цветочные композиции'
 	},
 	{
 		id: 5,
@@ -52,9 +44,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Оформление пространств и территорий',
-		btnText: 'Подробнее',
-		btnHref: '/area'
+		text: 'Оформление пространств и территорий'
 	},
 	{
 		id: 6,
@@ -63,9 +53,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Декор в интерьере',
-		btnText: 'Подробнее',
-		btnHref: '/decor'
+		text: 'Декор в интерьере'
 	},
 	{
 		id: 7,
@@ -74,9 +62,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Новогоднее оформление',
-		btnText: 'Подробнее',
-		btnHref: '/newyear'
+		text: 'Новогоднее оформление'
 	},
 	{
 		id: 8,
@@ -85,8 +71,6 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Авторская полиграфия и фитоэскизы',
-		btnText: 'Подробнее',
-		btnHref: '/sketchs'
+		text: 'Авторская полиграфия и фитоэскизы'
 	}
 ]
