@@ -20,13 +20,13 @@ const Header = () => {
 
 	return (
 		<header
-			className='cont items-center py-4'
+			className='cont items-center'
 			style={{ background: 'rgba(59, 59, 56, 0.30)' }}
 		>
 			<nav
 				className={cn(
 					{ [styles.active]: isMenuActive },
-					'fixed md:static z-10 w-full h-full md:w-auto md:h-auto end-0 bottom-0 -translate-y-full md:translate-y-0 opacity-0 md:opacity-100 transition-all duration-300 ease-out'
+					'fixed md:static z-10 w-full h-full md:w-auto md:h-auto end-0 bottom-0 -translate-y-full md:translate-y-0 opacity-0 md:opacity-100 transition-all duration-300 ease-out py-4'
 				)}
 			>
 				<ul
@@ -81,19 +81,6 @@ const Header = () => {
 					>
 						<Link className='px-[10px] btn btn-ghost font-normal' href='/about'>
 							О нас
-						</Link>
-					</li>
-					<li
-						className={cn(
-							styles.item,
-							'block text-center opacity-0 md:opacity-100'
-						)}
-					>
-						<Link
-							className='px-[10px] btn btn-ghost font-normal'
-							href='/service'
-						>
-							Услуга (служебная ссылка)
 						</Link>
 					</li>
 					<li
