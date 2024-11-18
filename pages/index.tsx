@@ -15,10 +15,10 @@ const HomePage: NextPage = () => {
 	return (
 		<>
 			<Meta title='Главная' metaDesc='Описание страницы' />
-			<OurWorks ourWorks={ourWorksData} />
-			<Services serviceData={serviceData} />
 			<WhyWe />
+			<Services serviceData={serviceData} />
 			<Timeline />
+			<OurWorks ourWorks={ourWorksData} />
 			<ThreeImgs />
 			<Logos />
 			<Contacts />
