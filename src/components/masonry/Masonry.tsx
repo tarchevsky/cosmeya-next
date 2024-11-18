@@ -2,8 +2,9 @@ import cn from 'clsx'
 import styles from './Masonry.module.scss'
 import { MasonryProps } from '@/types'
 import Image from 'next/image'
+import { FC } from 'react'
 
-const Masonry: React.FC<MasonryProps> = ({ images }) => {
+const Masonry: FC<MasonryProps> = ({ images }) => {
 	// Разделяем изображения на три колонки
 	const columns = [
 		images.filter((_, index) => index % 3 === 0),
@@ -12,13 +13,13 @@ const Masonry: React.FC<MasonryProps> = ({ images }) => {
 	]
 
 	return (
-		<div className='grid grid-cols-1 xs:grid-cols-2 gap-6 md:grid-cols-3 mb-16'>
+		<div className='grid grid-cols-1 xs:grid-cols-2 gap-2 md:grid-cols-3 mb-16'>
 			{columns.map((column, columnIndex) => (
-				<div key={columnIndex} className='grid gap-6'>
+				<div key={columnIndex} className='grid gap-2'>
 					{column.map(image => (
 						<div key={image.id} className={cn(styles.img, 'relative')}>
 							<Image
-								className='object-cover object-center rounded-box'
+								className='object-cover object-center'
 								src={image.src}
 								alt={image.alt}
 								width={1000}

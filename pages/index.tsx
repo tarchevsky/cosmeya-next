@@ -8,11 +8,16 @@ import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
 import Logos from '@/components/logos/Logos'
 import { serviceData } from '@/components/services/serviceData'
+import Masonry from '@/components/masonry/Masonry'
+import mainMasonryData from '@/data/mainMasonryData'
 
 const HomePage: NextPage = () => {
 	return (
 		<>
 			<Meta title='Главная' metaDesc='Описание страницы' />
+			<div className='cont'>
+				<Masonry images={mainMasonryData} />
+			</div>
 			<Services serviceData={serviceData} />
 			<WhyWe />
 			<Timeline />
