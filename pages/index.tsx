@@ -7,7 +7,7 @@ import ThreeImgs from '@/components/threeImgs/ThreeImgs'
 import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
 import Logos from '@/components/logos/Logos'
-import { serviceData } from '@/components/services/serviceData'
+import { serviceData } from '@/data/serviceData'
 import Masonry from '@/components/masonry/Masonry'
 import mainMasonryData from '@/data/mainMasonryData'
 
