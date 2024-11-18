@@ -166,4 +166,24 @@ export interface ImageItem {
 
 export interface MasonryProps {
 	images: ImageItem[]
+	columns?: number
+}
+
+// OurWorksData
+
+export interface OurWorksData {
+	id: number
+	title?: string
+	images?: ImageItem[]
+	columns?: number
+	columnsTwo?: number
+	subTitle?: string
+	text?: string
+	titleTwo?: string
+	imagesTwo?: ImageItem[]
+	subText?: string
+}
+
+export interface OurWorksProps {
+	ourWorks: OurWorksData[]
 }
