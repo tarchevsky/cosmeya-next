@@ -38,10 +38,14 @@ export const getStaticProps: GetStaticProps = async () => {
 		imgClassName: 'hidden h-full',
 		slider: true,
 		text1: 'Озеленение пространств: <br/>офисов, площадок, мероприятий',
+		// textLink1: '/greenery',
 		text2:
 			'Эксклюзивные цветочные <br />композиции и уникальные <br />флористические решения',
+		// textLink2: '/exclusive',
 		text3: 'Вдохновленный подход к <br />интерьеру и экстерьеру',
+		// textLink3: '/inspiration',
 		text4: 'Живые пространства, созданные <br />цветами и искусством'
+		// textLink4: '/life-area'
 	}
 
 	return {

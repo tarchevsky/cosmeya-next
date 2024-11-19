@@ -80,9 +80,13 @@ export interface HeroProps {
 	imgClassName?: string
 	slider?: boolean
 	text1?: string
+	textLink1?: string
 	text2?: string
+	textLink2?: string
 	text3?: string
+	textLink3?: string
 	text4?: string
+	textLink4?: string
 }
 
 // Accordion.tsx

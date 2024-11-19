@@ -16,7 +16,11 @@ const Hero = ({
 	text1,
 	text2,
 	text3,
-	text4
+	text4,
+	textLink1,
+	textLink2,
+	textLink3,
+	textLink4
 }: HeroProps) => {
 	return (
 		<div className='hero'>
@@ -48,36 +52,64 @@ const Hero = ({
 						{text1 ? (
 							<div className='grid lg:grid-cols-2 gap-4 mt-[33px]'>
 								<div className='rounded-3xl p-6 glass'>
-									<Link
-										href='/greenery'
-										className='text-base-100'
-										dangerouslySetInnerHTML={{ __html: text1 ?? '' }}
-										aria-label='Кнопка на раздел'
-									/>
+									{textLink1 ? (
+										<Link
+											href={textLink1}
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text1 ?? '' }}
+											aria-label='Кнопка на раздел'
+										/>
+									) : (
+										<div
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text1 ?? '' }}
+										/>
+									)}
 								</div>
 								<div className='rounded-3xl p-6 glass'>
-									<Link
-										href='/exclusive'
-										className='text-base-100'
-										dangerouslySetInnerHTML={{ __html: text2 ?? '' }}
-										aria-label='Кнопка на раздел'
-									/>
+									{textLink2 ? (
+										<Link
+											href={textLink2}
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text2 ?? '' }}
+											aria-label='Кнопка на раздел'
+										/>
+									) : (
+										<div
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text2 ?? '' }}
+										/>
+									)}
 								</div>
 								<div className='rounded-3xl p-6 glass'>
-									<Link
-										href='/inspiration'
-										className='text-base-100'
-										dangerouslySetInnerHTML={{ __html: text3 ?? '' }}
-										aria-label='Кнопка на раздел'
-									/>
+									{textLink3 ? (
+										<Link
+											href={textLink3}
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text3 ?? '' }}
+											aria-label='Кнопка на раздел'
+										/>
+									) : (
+										<div
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text3 ?? '' }}
+										/>
+									)}
 								</div>
 								<div className='rounded-3xl p-6 glass'>
-									<Link
-										href='/life-area'
-										className='text-base-100'
-										dangerouslySetInnerHTML={{ __html: text4 ?? '' }}
-										aria-label='Кнопка на раздел'
-									/>
+									{textLink4 ? (
+										<Link
+											href={textLink4}
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text4 ?? '' }}
+											aria-label='Кнопка на раздел'
+										/>
+									) : (
+										<div
+											className='text-base-100'
+											dangerouslySetInnerHTML={{ __html: text4 ?? '' }}
+										/>
+									)}
 								</div>
 							</div>
 						) : null}
