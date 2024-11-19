@@ -12,7 +12,7 @@ const Masonry: FC<MasonryProps> = ({ images, columns = 3 }) => {
 
 	return (
 		<div
-			className={`grid gap-2 mb-14 ${
+			className={`grid gap-2 mb-10 md:mb-14 ${
 				columns === 2
 					? 'grid-cols-1 sm:grid-cols-2'
 					: 'grid-cols-1 xs:grid-cols-2 md:grid-cols-3'

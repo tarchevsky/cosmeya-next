@@ -9,7 +9,7 @@ const OurWorks = memo(({ ourWorks }: OurWorksProps) => {
 			{ourWorks.map(project => (
 				<div key={project.id} className='cont mb-14'>
 					<div
-						className='p-14'
+						className='p-6 md:p-14'
 						style={{
 							boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
 						}}
@@ -31,7 +31,7 @@ const OurWorks = memo(({ ourWorks }: OurWorksProps) => {
 						) : null}
 						{project.text ? (
 							<p
-								className='mb-14'
+								className='mb-10 md:mb-14'
 								dangerouslySetInnerHTML={{ __html: project.text }}
 							/>
 						) : null}
