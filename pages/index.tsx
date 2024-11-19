@@ -8,17 +8,14 @@ import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
 import Logos from '@/components/logos/Logos'
 import { serviceData } from '@/data/serviceData'
-import OurWorks from '@/components/ourWorks/OurWorks'
-import ourWorksData from '@/data/ourWorksData'
 
 const HomePage: NextPage = () => {
 	return (
 		<>
 			<Meta title='Главная' metaDesc='Описание страницы' />
-			<WhyWe />
 			<Services serviceData={serviceData} />
+			<WhyWe />
 			<Timeline />
-			<OurWorks ourWorks={ourWorksData} />
 			<ThreeImgs />
 			<Logos />
 			<Contacts />
