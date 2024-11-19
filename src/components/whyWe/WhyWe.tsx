@@ -6,7 +6,7 @@ const WhyWe = () => {
 		<FadeIn className='relative mb-9 md:mb-28'>
 			<div className='cont'>
 				<h2 className={'pb-[75px]'}>Почему выбирают нас?</h2>
-				<section className='px-[40px]'>
+				<section className='px-2 md:px-10'>
 					<div
 						className='flex flex-col-reverse lg:grid lg:grid-cols-2 px-10 py-[75px] bg-white'
 						style={{
