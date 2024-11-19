@@ -51,7 +51,7 @@ const Header = () => {
 					>
 						<Link
 							className='px-[10px] btn btn-ghost font-normal scroll-smooth'
-							href='#services'
+							href='/#services'
 						>
 							Услуги
 						</Link>
