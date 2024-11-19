@@ -4,12 +4,14 @@ import ourWorksData from '@/data/ourWorksData'
 import OurWorks from '@/components/ourWorks/OurWorks'
 import { GetStaticProps, NextPage } from 'next'
 import { HeroProps } from '@/types'
+import Logos from '@/components/logos/Logos'
 
 const PortfolioPage: NextPage = () => {
 	return (
 		<>
 			<Meta title='Главная' metaDesc='Описание страницы' />
 			<OurWorks ourWorks={ourWorksData} />
+			<Logos />
 		</>
 	)
 }
