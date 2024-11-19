@@ -5,7 +5,7 @@ import { data } from '@/components/services/Services.types'
 
 const Services = ({ serviceData }: data) => {
 	return (
-		<FadeIn className='cont mb-9 md:mb-28'>
+		<FadeIn className='cont mb-9 md:mb-28' id='services'>
 			<section>
 				<h2 className='pb-[75px]'>Услуги</h2>
 				<div className='grid lg:grid-cols-2 gap-8 text-base-100'>

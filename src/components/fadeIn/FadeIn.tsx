@@ -3,7 +3,13 @@ import { useRef } from 'react'
 import { LayoutProps } from '@/types'
 import cn from 'clsx'
 
-const FadeIn = ({ children, className, delay = 0.2, style }: LayoutProps) => {
+const FadeIn = ({
+	children,
+	className,
+	delay = 0.2,
+	style,
+	id
+}: LayoutProps) => {
 	const ref = useRef(null)
 	const isInView = useInView(ref, { once: true, amount: 0.1 })
 
@@ -15,6 +21,7 @@ const FadeIn = ({ children, className, delay = 0.2, style }: LayoutProps) => {
 			transition={{ duration: 1, delay }}
 			className={cn(className)}
 			style={style as MotionStyle}
+			id={id}
 		>
 			{children}
 		</motion.div>

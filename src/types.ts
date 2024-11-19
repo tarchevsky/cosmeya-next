@@ -29,6 +29,7 @@ export interface ButtonProps {
 // Layout.tsx + FadeIn.tsx
 
 export interface LayoutProps {
+	id?: string
 	children: ReactNode
 	className?: string
 	delay?: number
