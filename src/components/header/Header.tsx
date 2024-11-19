@@ -85,7 +85,10 @@ const Header = () => {
 							'block text-center opacity-0 md:opacity-100'
 						)}
 					>
-						<Link className='px-[10px] btn btn-ghost font-normal' href='#'>
+						<Link
+							className='px-[10px] btn btn-ghost font-normal'
+							href='/contacts'
+						>
 							Контакты
 						</Link>
 					</li>
