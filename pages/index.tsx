@@ -14,8 +14,8 @@ const HomePage: NextPage = () => {
 		<>
 			<Meta title='Главная' metaDesc='Описание страницы' />
 			<Services serviceData={serviceData} />
-			<WhyWe />
 			<Timeline />
+			<WhyWe />
 			<ThreeImgs />
 			<Logos />
 			<Contacts />
