@@ -23,7 +23,7 @@ const WhyWe = () => {
 							<li>высокое качество материалов и исполнения</li>
 							<li>персонализированный подход к каждому клиенту</li>
 						</ul>
-						<div className='grid grid-cols-2 gap-2'>
+						<div className='grid grid-cols-2 gap-2 w-fit h-fit xl:w-full'>
 							<Image
 								src='/why-grid-1.png'
 								alt='Картинка плитки в Почему мы?'
