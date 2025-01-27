@@ -23,10 +23,5 @@ export const images = [
 		id: '5',
 		src: '/inspiration/inspiration-5.png',
 		alt: 'inspiration'
-	},
-	{
-		id: '6',
-		src: '/inspiration/inspiration-6.png',
-		alt: 'inspiration'
 	}
 ]

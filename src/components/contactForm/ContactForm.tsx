@@ -82,7 +82,7 @@ export default function ContactForm({ title }: IContactFormProps) {
 		<>
 			<form
 				onSubmit={handleSubmit(onSubmit)}
-				className='w-full flex flex-col gap-6'
+				className='w-full flex flex-col gap-10'
 			>
 				<div className='flex gap-4'>
 					<div className='w-full'>
@@ -91,7 +91,7 @@ export default function ContactForm({ title }: IContactFormProps) {
 							id='name'
 							{...register('name', { required: true })}
 							placeholder='Имя'
-							className='input input-bordered w-full'
+							className='input border-b-neutral-400 border-b-[1px] rounded-none w-full'
 						/>
 						{errors.name && <span>Введите своё имя</span>}
 					</div>
@@ -102,7 +102,7 @@ export default function ContactForm({ title }: IContactFormProps) {
 							id='email'
 							{...register('email', { required: true })}
 							placeholder='Почта'
-							className='input input-bordered w-full'
+							className='input border-b-neutral-400 border-b-[1px] rounded-none w-full'
 						/>
 						{errors.email && <span>Упс, вы забыли ввести почту</span>}
 					</div>
@@ -114,7 +114,7 @@ export default function ContactForm({ title }: IContactFormProps) {
 						id='phone'
 						{...register('phone', { required: true })}
 						placeholder='Телефон'
-						className='input input-bordered w-full'
+						className='input border-b-neutral-400 border-b-[1px] rounded-none w-full'
 					/>
 					{errors.phone && <span>Введите номер телефона</span>}
 				</div>
@@ -122,7 +122,7 @@ export default function ContactForm({ title }: IContactFormProps) {
 					id='message'
 					{...register('message')}
 					placeholder='Сообщение'
-					className='input input-bordered w-full p-3.5 h-24'
+					className='input border-b-neutral-400 border-b-[1px] rounded-none w-full p-3.5 h-24'
 				></textarea>
 				<button type='submit' className='btn btn-wide btn-primary'>
 					Отправить

@@ -53,7 +53,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Декор в интерьере'
+		text: 'Сервисное обслуживание растений'
 	},
 	{
 		id: 7,
