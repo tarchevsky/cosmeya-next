@@ -18,7 +18,8 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Флористический дизайн и декор событий'
+		text: 'Флористический дизайн и декор событий',
+		href: '/floraldesign'
 	},
 	{
 		id: 3,
@@ -27,7 +28,8 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Озеленение городских площадей'
+		text: 'Озеленение городских площадей',
+		href: '/landscaping'
 	},
 	{
 		id: 4,
@@ -46,7 +48,8 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Оформление пространств и территорий'
+		text: 'Оформление пространств и территорий для торжества',
+		href: '/celebrations'
 	},
 	{
 		id: 6,
