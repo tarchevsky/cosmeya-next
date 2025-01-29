@@ -68,7 +68,8 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Новогоднее оформление'
+		text: 'Новогоднее оформление',
+		href: '/christmas'
 	},
 	{
 		id: 8,
