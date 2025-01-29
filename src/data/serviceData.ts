@@ -55,7 +55,8 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Сервисное обслуживание растений'
+		text: 'Сервисное обслуживание растений',
+		href: '/plantcare'
 	},
 	{
 		id: 7,
