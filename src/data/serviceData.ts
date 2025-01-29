@@ -36,7 +36,8 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Цветочные композиции'
+		text: 'Цветочные композиции',
+		href: '/compositions'
 	},
 	{
 		id: 5,
