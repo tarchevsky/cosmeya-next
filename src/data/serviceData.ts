@@ -78,6 +78,7 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Авторская полиграфия и фитоэскизы'
+		text: 'Авторская полиграфия и фитоэскизы',
+		href: '/sketchs'
 	}
 ]
