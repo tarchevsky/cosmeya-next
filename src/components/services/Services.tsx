@@ -1,7 +1,8 @@
-import FadeIn from '@/components/fadeIn/FadeIn'
-import Image from 'next/image'
 import Button from '@/components/button/Button'
+import FadeIn from '@/components/fadeIn/FadeIn'
 import { data } from '@/components/services/Services.types'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Services = ({ serviceData }: data) => {
 	return (
@@ -10,7 +11,8 @@ const Services = ({ serviceData }: data) => {
 				<h2 className='pb-[75px]'>Услуги</h2>
 				<div className='grid lg:grid-cols-2 gap-8 text-base-100'>
 					{serviceData.map((data, index) => (
-						<div
+						<Link
+							href={data.href || '#'}
 							key={data.id}
 							className='grid grid-cols-2 rounded-[30px]'
 							style={{
@@ -40,7 +42,7 @@ const Services = ({ serviceData }: data) => {
 									/>
 								) : null}
 							</div>
-						</div>
+						</Link>
 					))}
 				</div>
 			</section>

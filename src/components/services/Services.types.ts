@@ -8,6 +8,7 @@ export interface ServiceData {
 	text: string
 	btnText?: string
 	btnHref?: string
+	href?: string
 }
 
 export interface data {

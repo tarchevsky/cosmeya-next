@@ -8,7 +8,8 @@ export const serviceData: ServiceData[] = [
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Фитодизайн в офисных помещениях'
+		text: 'Фитодизайн в офисных помещениях',
+		href: '/greenoffice'
 	},
 	{
 		id: 2,
