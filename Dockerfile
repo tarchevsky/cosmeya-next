@@ -25,7 +25,7 @@ COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
 
 # Increase Node.js memory limit and build the application
-ENV NODE_OPTIONS="--max-old-space-size=4096"
+ENV NODE_OPTIONS="--max-old-space-size=8192"
 RUN npm run build && ls -la .next/
 
 # Production image, copy all the files and run next

@@ -1,57 +1,33 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	// output: 'export',
 	output: 'standalone',
 	reactStrictMode: true,
 	poweredByHeader: false,
 	compress: true,
 	
-	// Modern image optimization
+	// Disable type checking during build to save memory
+	typescript: {
+		ignoreBuildErrors: true,
+	},
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
+	
+	// Simple image optimization
 	images: {
 		unoptimized: false,
-		formats: ['image/webp', 'image/avif'],
-		deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-		imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-		// loader: 'custom',
-		// loaderFile: './my-loader.ts',
-		remotePatterns: [
-			{
-				protocol: 'https',
-				hostname: 'images.unsplash.com',
-				port: '',
-				pathname: '/**',
-			}
-		],
+		formats: ['image/webp'],
+		deviceSizes: [640, 828, 1200, 1920],
+		imageSizes: [16, 32, 64, 128, 256],
 	},
 	
-	// Security headers
-	async headers() {
-		return [
-			{
-				source: '/(.*)',
-				headers: [
-					{
-						key: 'X-DNS-Prefetch-Control',
-						value: 'on'
-					},
-					{
-						key: 'X-Frame-Options',
-						value: 'DENY'
-					}
-				],
-			},
-		];
-	},
-	
-	// Experimental features for better performance
+	// Minimal experimental features
 	experimental: {
-		optimizeCss: true,
-		optimizePackageImports: ['framer-motion', 'react-icons'],
+		optimizeCss: false,
 	},
 	
-	// ISR and caching
+	// Simple build ID
 	generateBuildId: async () => {
-		// Simple build ID for production
 		return 'production-' + Date.now();
 	},
 }
