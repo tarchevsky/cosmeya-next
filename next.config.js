@@ -51,16 +51,8 @@ const nextConfig = {
 	
 	// ISR and caching
 	generateBuildId: async () => {
-		// Use git commit hash for build ID in production
-		if (process.env.NODE_ENV === 'production') {
-			const { execSync } = require('child_process');
-			try {
-				return execSync('git rev-parse HEAD').toString().trim();
-			} catch {
-				return 'no-git-' + Date.now();
-			}
-		}
-		return null;
+		// Simple build ID for production
+		return 'production-' + Date.now();
 	},
 }
 
