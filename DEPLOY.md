@@ -87,19 +87,24 @@ Nginx перезагружается каждые 6 часов для приме
 ✅ **OCSP Stapling** - ускоренная проверка SSL  
 ✅ **TLS 1.3** - современное шифрование
 
-## Обновление проекта
+## Npm скрипты
 
 ```bash
-# Для обновления кода
-git pull origin master
-docker compose build
-docker compose up -d
+# Локальная разработка
+npm run dev
 
-# Для полной пересборки (при проблемах)
-docker compose down
-docker compose build --no-cache
-docker compose up -d
+# Docker команды
+npm run docker:build
+npm run docker:up
+npm run docker:down
+npm run docker:logs
+
+# Проверка типов и линтинг
+npm run type-check
+npm run lint:fix
 ```
+
+## Резервное копирование
 
 ```bash
 # Создать бэкап сертификатов
