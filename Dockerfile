@@ -10,7 +10,7 @@ WORKDIR /app
 COPY package.json package-lock.json* ./
 RUN \
   if [ -f package-lock.json ]; then npm ci --omit=dev; \
-  else echo "Lockfile not found." && exit 1; \
+  else npm install --omit=dev; \
   fi
 
 # Rebuild the source code only when needed
