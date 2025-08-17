@@ -35,8 +35,10 @@ docker compose run --rm --entrypoint "\
     -subj '/CN=localhost'" certbot
 echo
 
-echo "### Starting nginx ..."
-docker compose up --force-recreate -d nginx
+echo "### Starting nginx with init config for SSL challenge ..."
+docker compose down
+cp nginx-init.conf nginx.conf
+docker compose up -d nginx
 echo
 
 echo "### Deleting dummy certificate for $domains ..."
@@ -72,5 +74,6 @@ docker compose run --rm --entrypoint "\
     --force-renewal" certbot
 echo
 
-echo "### Reloading nginx ..."
+echo "### Reloading nginx with full config..."
+git checkout nginx.conf 2>/dev/null || echo "Restoring nginx.conf from git"
 docker compose exec nginx nginx -s reload
