@@ -26,7 +26,7 @@ ENV NEXT_TELEMETRY_DISABLED=1
 
 # Build the application
 ENV NODE_OPTIONS="--max-old-space-size=4096"
-RUN npm run build
+RUN npm run build && ls -la .next/ && ls -la .next/standalone/ || echo "Build failed or standalone not created"
 
 # Production image, copy all the files and run next
 FROM base AS runner
@@ -48,6 +48,9 @@ RUN chown nextjs:nodejs .next
 # https://nextjs.org/docs/advanced-features/output-file-tracing
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+# Debug: check what files were copied
+RUN ls -la / && ls -la ./ && ls -la .next/ || echo "Files not found"
 
 USER nextjs
 
