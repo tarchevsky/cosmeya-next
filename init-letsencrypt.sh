@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Создание SSL-сертификатов Let's Encrypt для cosmeya.art
+# Создание SSL-сертификатов Let's Encrypt для cosmeya.art и cosmeya.webtm.ru
 
 set -e
 
-domains=(cosmeya.art www.cosmeya.art)
+domains=(cosmeya.art www.cosmeya.art cosmeya.webtm.ru)
 rsa_key_size=4096
 data_path="./certbot"
 email="i.tarchevsky@yandex.ru" # ОБЯЗАТЕЛЬНО замените на ваш реальный email!
