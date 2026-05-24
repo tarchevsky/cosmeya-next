@@ -1,10 +1,15 @@
-import cn from 'clsx'
-import styles from './Masonry.module.scss'
 import { MasonryProps } from '@/types'
+import cn from 'clsx'
 import Image from 'next/image'
 import { FC } from 'react'
+import styles from './Masonry.module.scss'
 
-const Masonry: FC<MasonryProps> = ({ images, columns = 3 }) => {
+const Masonry: FC<MasonryProps> = ({
+	images,
+	columns = 3,
+	quality = 80,
+	className
+}) => {
 	// Разделяем изображения на три колонки
 	const columnArrays = Array.from({ length: columns }, (_, colIndex) =>
 		images.filter((_, index) => index % columns === colIndex)
@@ -12,7 +17,7 @@ const Masonry: FC<MasonryProps> = ({ images, columns = 3 }) => {
 
 	return (
 		<div
-			className={`grid gap-2 mb-10 md:mb-14 ${
+			className={`grid gap-2 mb-10 md:mb-14 ${className} ${
 				columns === 2
 					? 'grid-cols-1 sm:grid-cols-2'
 					: 'grid-cols-1 xs:grid-cols-2 md:grid-cols-3'
@@ -29,7 +34,7 @@ const Masonry: FC<MasonryProps> = ({ images, columns = 3 }) => {
 								width={1000}
 								height={1000}
 								style={{ width: '100%', height: '100%' }}
-								quality={10}
+								quality={quality}
 							/>
 						</div>
 					))}

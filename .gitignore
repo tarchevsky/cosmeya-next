@@ -27,16 +27,15 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local env files
-.env*.local
-
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
 
-# docker & ssl
-certbot/
-nginx/ssl/
+.env
+.env*
+!.env.example
+!.env.local.example
+!.env.production.example
+!.env.development.example

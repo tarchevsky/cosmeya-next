@@ -1,15 +1,17 @@
-import Layout from '@/layout/Layout'
-import Meta from '@/components/meta/Meta'
-import ourWorksData from '@/data/ourWorksData'
-import OurWorks from '@/components/ourWorks/OurWorks'
-import { GetStaticProps, NextPage } from 'next'
-import { HeroProps } from '@/types'
 import Logos from '@/components/logos/Logos'
+import Meta from '@/components/meta/Meta'
+import OurWorks from '@/components/ourWorks/OurWorks'
+import ourWorksData from '@/data/ourWorksData'
+import { HeroProps } from '@/types'
+import { GetStaticProps, NextPage } from 'next'
 
 const PortfolioPage: NextPage = () => {
 	return (
 		<>
-			<Meta title='Главная' metaDesc='Описание страницы' />
+			<Meta
+				title='Портфолио'
+				metaDesc='Страница портфолио сайта компании Космея'
+			/>
 			<OurWorks ourWorks={ourWorksData} />
 			<Logos />
 		</>

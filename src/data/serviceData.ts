@@ -41,15 +41,25 @@ export const serviceData: ServiceData[] = [
 		text: 'Цветочные композиции',
 		href: '/compositions'
 	},
+	// {
+	// 	id: 5,
+	// 	src: '/services/services-5.png',
+	// 	alt: 'Alt',
+	// 	imgClass: 'w-full',
+	// 	width: 300,
+	// 	height: 210,
+	// 	text: 'Оформление пространств и территорий для торжества',
+	// 	href: '/celebrations'
+	// },
 	{
 		id: 5,
 		src: '/services/services-5.png',
-		alt: 'Alt',
+		alt: 'Картинка раздела Оформление входных групп',
 		imgClass: 'w-full',
 		width: 300,
 		height: 210,
-		text: 'Оформление пространств и территорий для торжества',
-		href: '/celebrations'
+		text: 'Оформление входных групп',
+		href: '/entrance-groups'
 	},
 	{
 		id: 6,
