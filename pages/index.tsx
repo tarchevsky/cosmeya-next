@@ -1,22 +1,26 @@
-import { GetStaticProps, NextPage } from 'next'
+import Contacts from '@/components/contacts/Contacts'
+import Logos from '@/components/logos/Logos'
 import Meta from '@/components/meta/Meta'
-import { HeroProps } from '@/types'
-import WhyWe from '@/components/whyWe/WhyWe'
 import Services from '@/components/services/Services'
 import ThreeImgs from '@/components/threeImgs/ThreeImgs'
-import Contacts from '@/components/contacts/Contacts'
 import Timeline from '@/components/timeline/Timeline'
-import Logos from '@/components/logos/Logos'
+import WhyWe from '@/components/whyWe/WhyWe'
 import { serviceData } from '@/data/serviceData'
+import { threeImagesData } from '@/data/threeImagesData'
+import { HeroProps } from '@/types'
+import { GetStaticProps, NextPage } from 'next'
 
 const HomePage: NextPage = () => {
 	return (
 		<>
-			<Meta title='Главная' metaDesc='Описание страницы' />
+			<Meta
+				title='Главная страница Космея'
+				metaDesc='Дом цветочной моды Космея - предоставляет услвгу по фитодизайну и декору. Мы занимаемся озеленением пространств, созданием эксклюзивных цветочных композиций и уникальных флористических решений.'
+			/>
 			<Services serviceData={serviceData} />
 			<Timeline />
 			<WhyWe />
-			<ThreeImgs />
+			<ThreeImgs threeImgsData={threeImagesData} />
 			<Logos />
 			<Contacts />
 		</>
