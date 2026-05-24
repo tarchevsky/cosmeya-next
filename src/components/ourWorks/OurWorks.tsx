@@ -1,6 +1,7 @@
 import Masonry from '@/components/masonry/Masonry'
 import { OurWorksProps } from '@/types'
 import { memo } from 'react'
+import BoxContainer from '../boxContainer/BoxContainer'
 
 const OurWorks = memo(({ ourWorks }: OurWorksProps) => {
 	return (
@@ -8,12 +9,7 @@ const OurWorks = memo(({ ourWorks }: OurWorksProps) => {
 			<h2 className='cont mb-6'>Наши работы</h2>
 			{ourWorks.map(project => (
 				<div key={project.id} className='cont mb-14'>
-					<div
-						className='p-6 md:p-14'
-						style={{
-							boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
-						}}
-					>
+					<BoxContainer>
 						{project.title ? (
 							<h3
 								className='mb-4'
@@ -50,7 +46,7 @@ const OurWorks = memo(({ ourWorks }: OurWorksProps) => {
 						{project.subText ? (
 							<p dangerouslySetInnerHTML={{ __html: project.subText }} />
 						) : null}
-					</div>
+					</BoxContainer>
 				</div>
 			))}
 		</>
