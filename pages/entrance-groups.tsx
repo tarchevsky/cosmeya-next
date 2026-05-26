@@ -46,7 +46,7 @@ const EntranceGroupsPage: NextPage = () => {
 			<FadeIn className='cont'>
 				<BoxContainer>
 					<h2 className='text-4xl text-green-800 mb-4'>
-						Открытие магазина цветов
+						Оформление салона красоты
 					</h2>
 					<p>
 						Входная группа была создана для магазина цветов, который недавно

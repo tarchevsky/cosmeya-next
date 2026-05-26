@@ -53,7 +53,7 @@ export const serviceData: ServiceData[] = [
 	// },
 	{
 		id: 5,
-		src: '/services/services-5.png',
+		src: '/services/services-9.png',
 		alt: 'Картинка раздела Оформление входных групп',
 		imgClass: 'w-full',
 		width: 300,
